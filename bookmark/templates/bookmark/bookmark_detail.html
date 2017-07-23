@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmark Detail: {{ object.title }}</title>
+</head>
+<body>
+  <div id="root">
+    <h1>Bookmark Detail : {{ object.title }}</h1>
+    <ul>
+      <li>URL: <a href="{{ object.url }}" target=_blank>{{ object.url }}</a></li>
+      <li>Desc: {{ object.desc }}</li>
+    </ul>
+    <a href="{% url 'index' %}">Home</a>
+  </div>
+</body>
+</html>

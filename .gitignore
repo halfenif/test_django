@@ -1,0 +1,16 @@
+
+blog/__pycache__/
+
+blog/migrations/
+
+bookmark/__pycache__/
+
+bookmark/migrations/
+
+test_django/__pycache__/
+
+test_django/__init__\.py
+
+blog/__init__\.py
+
+bookmark/__init__\.py
